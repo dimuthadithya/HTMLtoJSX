@@ -6,13 +6,13 @@ A Chrome browser extension that enhances [Flowbite](https://flowbite.com/) compo
 
 ### Copy JSX Button
 
-![Copy JSX Button](./src/images/copyJsxButton.png)
+![Copy JSX Button](/src/images/copyJsxButton.png)
 
 The extension adds a "Copy JSX" button to each code snippet on Flowbite documentation pages. The button seamlessly integrates with Flowbite's design system, appearing alongside the existing copy buttons.
 
 ### Code Transformation
 
-![Code Transformation](./src/images/dif.png)
+![Code Transformation](/src/images/dif.png)
 
 When you click the "Copy JSX" button, the extension automatically transforms Flowbite's HTML code into JSX format. The transformation handles:
 
