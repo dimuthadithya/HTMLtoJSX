@@ -1,0 +1,20 @@
+{
+    "manifest_version": 3,
+    "name": "Flowbite HTML to JSX",
+    "version": "1.0.0",
+    "description": "Convert Flowbite HTML code snippets to JSX format.",
+    "content_scripts": [
+        {
+            "matches": [
+                "https://flowbite.com/docs/components/*"
+            ],
+            "js": [
+                "content.js"
+            ],
+            "run_at": "document_idle"
+        }
+    ],
+    "host_permissions": [
+        "https://flowbite.com/docs/components/*"
+    ]
+}
